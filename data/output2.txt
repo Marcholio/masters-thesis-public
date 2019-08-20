@@ -1,0 +1,1168 @@
+01.01.2019 0.5 ay-amosintegrations Ville
+02.01.2019 0.5 ay-amosintegrations Viivi
+03.01.2019 0.5 ay-qpulse-trafi-integration Lassi
+03.01.2019 0.5 ay-qpulse-trafi-integration Lassi
+03.01.2019 0.5 ay-amosintegrations Viivi
+03.01.2019 0.5 mrotools.io Ilari
+07.01.2019 0.5 ay-amosintegrations Viivi
+08.01.2019 0.5 ay-amosintegrations Ville
+08.01.2019 0.5 ay-admin Ville
+09.01.2019 0.5 ay-amosintegrations Viivi
+09.01.2019 0.5 ay-admin Lassi
+09.01.2019 0.5 ay-qpulse-trafi-integration Lassi
+09.01.2019 1.5 Low Lassi
+09.01.2019 0.5 ay-amosintegrations Lassi
+09.01.2019 0.5 ay-amosintegrations Ville
+10.01.2019 0.5 ay-admin Lassi
+11.01.2019 0.5 ay-qpulse-trafi-integration Kaarlo
+11.01.2019 0.5 enginedata.io Ville
+11.01.2019 0.5 ay-amosintegrations Ville
+11.01.2019 0.5 ay-admin Lassi
+14.01.2019 0.5 ay-maintops Ilari
+14.01.2019 0.5 ay-admin Lassi
+14.01.2019 0.5 ay-opsmetrics Lassi
+14.01.2019 0.5 ay-qpulse-trafi-integration Lassi
+14.01.2019 0.5 Low Lassi
+14.01.2019 0.5 ay-amosintegrations Ville
+14.01.2019 1.0 mrotools.io Ville
+14.01.2019 0.5 ay-amosintegrations Ville
+14.01.2019 0.5 ay-amosintegrations Ville
+15.01.2019 1.0 ay-qpulse-trafi-integration Lassi
+15.01.2019 0.5 ay-amosintegrations Viivi
+15.01.2019 0.5 ay-digidm Ilari
+15.01.2019 2.0 ay-qpulse-trafi-integration Kaarlo
+16.01.2019 0.5 ay-admin Lassi
+16.01.2019 1.0 ay-amosintegrations Ville
+16.01.2019 0.5 ay-amosintegrations Ville
+16.01.2019 0.5 ay-maintops Ilari
+16.01.2019 1.0 enginedata.io Ville
+16.01.2019 0.5 ay-admin Lassi
+17.01.2019 0.5 mrotools.io Ilari
+17.01.2019 0.5 ay-admin Lassi
+17.01.2019 1.5 ay-digidm Ilari
+18.01.2019 0.5 ay-admin Lassi
+18.01.2019 0.5 ay-maintops Ilari
+18.01.2019 0.5 ay-qpulse-trafi-integration Lassi
+18.01.2019 0.5 ay-amosintegrations Lassi
+18.01.2019 1.0 Other Lassi
+19.01.2019 0.5 ay-admin Ville
+19.01.2019 1.0 ay-digidm Ville
+19.01.2019 0.5 Low Ville
+21.01.2019 0.5 ay-admin Lassi
+21.01.2019 1.0 mrotools.io Ilari
+21.01.2019 0.5 ay-amosintegrations Ville
+22.01.2019 0.5 ay-admin Lassi
+22.01.2019 1.0 ay-amosintegrations Ville
+22.01.2019 0.5 ay-amosintegrations Ville
+22.01.2019 0.5 mrotools.io Lassi
+22.01.2019 1.0 Other Lassi
+22.01.2019 0.5 ay-amosintegrations Lassi
+23.01.2019 0.5 ay-admin Lassi
+23.01.2019 0.5 mrotools.io Lassi
+23.01.2019 0.5 ay-opsmetrics Lassi
+23.01.2019 0.5 ay-digidm Lassi
+23.01.2019 0.5 ay-digidm Lassi
+23.01.2019 0.5 ay-digidm Lassi
+23.01.2019 0.5 ay-opsmetrics Lassi
+24.01.2019 0.5 ay-admin Lassi
+24.01.2019 0.5 ay-amosintegrations Lassi
+24.01.2019 1.0  Kimmo Uusikumpu and Juha Karstunen" Lassi
+25.01.2019 0.5 mrotools.io Ilari
+25.01.2019 0.5 ay-admin Lassi
+25.01.2019 0.5 ay-maintops Lassi
+27.01.2019 0.5 ay-amosintegrations Ville
+28.01.2019 0.5 ay-admin Lassi
+28.01.2019 1.5 ay-amosintegrations Lassi
+28.01.2019 0.5 mrotools.io Ville
+28.01.2019 0.5 ay-amosintegrations Ville
+29.01.2019 1.0 ay-amosintegrations Ville
+30.01.2019 0.5 enginedata.io Ville
+30.01.2019 0.5 ay-admin Ville
+30.01.2019 0.5 ay-amosintegrations Ville
+30.01.2019 0.5 ay-opsmetrics Lassi
+31.01.2019 0.5 ay-admin Lassi
+31.01.2019 1.0 ay-amosintegrations Viivi
+31.01.2019 0.5 mrotools.io Lassi
+31.01.2019 0.5 ay-amosintegrations Viivi
+31.01.2019 0.5 Low Ville
+31.01.2019 0.5 enginedata.io Ville
+03.02.2019 0.5 ay-maintops Ilari
+03.02.2019 0.5 ay-admin Lassi
+03.02.2019 0.5 ay-admin Lassi
+03.02.2019 1.0 ay-maintops Ilari
+04.02.2019 3.0 Low Ville
+04.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+04.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+04.02.2019 0.5 ay-amosintegrations Ville
+04.02.2019 1.0 ay-amosintegrations Ville
+04.02.2019 0.5 ay-amosintegrations Ville
+04.02.2019 0.5 Low Ville
+04.02.2019 0.5 ay-amosintegrations Ville
+04.02.2019 0.5 ay-amosintegrations Ville
+04.02.2019 0.5 mrotools.io Lassi
+04.02.2019 0.5 mrotools.io Lassi
+04.02.2019 0.5 ay-admin Lassi
+05.02.2019 0.5 ay-admin Lassi
+06.02.2019 0.5 ay-qpulse-trafi-integration Ilari
+06.02.2019 1.5 mrotools.io Ilari
+06.02.2019 0.5 ay-amosintegrations Ville
+06.02.2019 1.0 Low Ville
+06.02.2019 1.0 ay-amosintegrations Ville
+06.02.2019 0.5 ay-amosintegrations Ville
+06.02.2019 0.5 mrotools.io Ville
+06.02.2019 0.5 ay-amosintegrations Ville
+07.02.2019 1.5 ay-amosintegrations Viivi
+07.02.2019 1.0 ay-amosintegrations Viivi
+07.02.2019 0.5 ay-opsmetrics Lassi
+07.02.2019 0.5 ay-admin Lassi
+07.02.2019 0.5 ay-amosintegrations Viivi
+08.02.2019 1.5 ay-qpulse-trafi-integration Kaarlo
+08.02.2019 0.5 ay-qpulse-trafi-integration Kaarlo
+08.02.2019 0.5 ay-opsmetrics Lassi
+08.02.2019 0.5 ay-admin Lassi
+08.02.2019 0.5 ay-amosintegrations Viivi
+10.02.2019 0.5 ay-admin Lassi
+11.02.2019 0.5 ay-admin Lassi
+11.02.2019 0.5 ay-opsmetrics Lassi
+11.02.2019 0.5 ay-admin Lassi
+11.02.2019 0.5 ay-admin Lassi
+11.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+11.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+11.02.2019 0.5 ay-amosintegrations Lassi
+11.02.2019 0.5 ay-amosintegrations Ville
+11.02.2019 0.5 ay-amosintegrations Ville
+11.02.2019 0.5 ay-amosintegrations Ville
+11.02.2019 0.5 ay-amosintegrations Ville
+12.02.2019 1.0 mrotools.io Ville
+12.02.2019 1.5 mrotools.io Ilari
+12.02.2019 0.5 ay-admin Lassi
+12.02.2019 1.0 ay-opsmetrics Lassi
+12.02.2019 2.0 ay-opsmetrics Markus
+12.02.2019 1.5 ay-opsmetrics Markus
+12.02.2019 0.5 ay-opsmetrics Lassi
+12.02.2019 0.5 Low Ville
+13.02.2019 0.5 ay-amosintegrations Ville
+13.02.2019 0.5 Other Ville
+13.02.2019 0.5 Low Lassi
+13.02.2019 0.5 ay-opsmetrics Lassi
+13.02.2019 0.5 ay-digitalization Lassi
+14.02.2019 0.5 ay-amosintegrations Viivi
+14.02.2019 0.5 ay-digitalization Viivi
+14.02.2019 0.5 ay-digitalization Ville
+14.02.2019 0.5 ay-admin Ville
+14.02.2019 0.5 mrotools.io Ville
+14.02.2019 0.5 Low Viivi
+14.02.2019 0.5 Low Ville
+14.02.2019 0.5 mrotools.io Ville
+14.02.2019 0.5 mrotools.io Ville
+14.02.2019 0.5 ay-amosintegrations Ville
+14.02.2019 0.5 ay-amosintegrations Ville
+14.02.2019 0.5 ay-opsmetrics Ville
+14.02.2019 0.5 ay-admin Lassi
+14.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+14.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+14.02.2019 0.5 ay-amosintegrations Ville
+14.02.2019 0.5 ay-digidm Ville
+14.02.2019 0.5 ay-digidm Ville
+14.02.2019 0.5 ay-amosintegrations Ville
+14.02.2019 0.5 ay-amosintegrations Ville
+14.02.2019 1.0 ay-digidm Ville
+14.02.2019 1.5 Low Lassi
+14.02.2019 1.5 Low Lassi
+14.02.2019 0.5 ay-amosintegrations Lassi
+15.02.2019 0.5 ay-admin Ville
+15.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+15.02.2019 0.5 ay-amosintegrations Ville
+15.02.2019 0.5 ay-amosintegrations Ville
+15.02.2019 0.5 ay-amosintegrations Lassi
+15.02.2019 0.5 ay-opsmetrics Lassi
+18.02.2019 0.5 ay-amosintegrations Ville
+18.02.2019 0.5 ay-amosintegrations Ville
+18.02.2019 0.5 ay-amosintegrations Ville
+19.02.2019 1.0 mrotools.io Ilari
+19.02.2019 0.5 ay-admin Ville
+19.02.2019 0.5 ay-amosintegrations Ville
+19.02.2019 0.5 ay-digitalization Ville
+19.02.2019 2.5  Atte Luomala Lassi
+19.02.2019 1.5 ay-qpulse-trafi-integration Kaarlo
+19.02.2019 0.5 Other Lassi
+20.02.2019 1.5 ay-amosintegrations Lassi
+20.02.2019 1.0 mrotools.io Ville
+20.02.2019 1.0 Low Ville
+20.02.2019 0.5 ay-admin Lassi
+21.02.2019 0.5 ay-amosintegrations Ville
+21.02.2019 1.0 ay-amosintegrations Ville
+21.02.2019 0.5 ay-admin Lassi
+22.02.2019 0.5 ay-maintops Ilari
+22.02.2019 1.0 Other Ilari
+22.02.2019 0.5 ay-amosintegrations Ville
+22.02.2019 0.5 ay-admin Lassi
+22.02.2019 1.0 ay-amosintegrations Viivi
+22.02.2019 2.0 ay-other Ilari
+25.02.2019 2.0 mrotools.io Ilari
+25.02.2019 0.5 ay-amosintegrations Ville
+25.02.2019 0.5 ay-admin Lassi
+25.02.2019 0.5 enginedata.io Ilari
+26.02.2019 0.5 ay-admin Lassi
+27.02.2019 1.0 ay-quintiq Ville
+27.02.2019 0.5 ay-quintiq Ville
+27.02.2019 0.5 ay-admin Lassi
+27.02.2019 1.0 ay-amosintegrations Olli
+27.02.2019 0.5 ay-qpulse-trafi-integration Lassi
+28.02.2019 1.0 ay-other Ilari
+28.02.2019 0.5 ay-other Ilari
+28.02.2019 0.5 ay-amosintegrations Viivi
+28.02.2019 1.0 ay-amosintegrations Viivi
+28.02.2019 0.5 ay-amosintegrations Viivi
+28.02.2019 0.5 ay-maintops Ilari
+01.03.2019 0.5 ay-admin Lassi
+01.03.2019 0.5 ay-amosintegrations Viivi
+01.03.2019 1.5  Timeline material update" Lassi
+01.03.2019 0.5 ay-amosintegrations Lassi
+01.03.2019 0.5 ay-admin Lassi
+01.03.2019 0.5 ay-quintiq Ville
+01.03.2019 0.5 ay-amosintegrations Ville
+01.03.2019 0.5 ay-amosintegrations Ville
+02.03.2019 2.0 ay-digidm Ilari
+03.03.2019 0.5 ay-digidm Ville
+03.03.2019 0.5 ay-quintiq Ville
+03.03.2019 1.0 mrotools.io Ville
+03.03.2019 0.5 ay-amosintegrations Ville
+03.03.2019 0.5 Low Ville
+04.03.2019 1.5 ay-amosintegrations Marcus
+04.03.2019 5.5 ay-amosintegrations Ilari
+04.03.2019 0.5 mrotools.io Ville
+04.03.2019 2.5 ay-amosintegrations Ville
+04.03.2019 0.5 ay-admin Lassi
+04.03.2019 1.0 Other Lassi
+05.03.2019 0.5 ay-maintops Ilari
+05.03.2019 0.5 ay-maintops Ilari
+05.03.2019 0.5 ay-maintops Ilari
+05.03.2019 0.5 ay-quintiq Ville
+05.03.2019 0.5 ay-maintops Ilari
+05.03.2019 0.5 ay-amosintegrations Ville
+05.03.2019 0.5 ay-amosintegrations Ville
+05.03.2019 0.5 ay-admin Ville
+05.03.2019 0.5 ay-other Ville
+05.03.2019 1.0 ay-quintiq Markus
+06.03.2019 0.5 Low Ville
+06.03.2019 0.5 ay-admin Ville
+06.03.2019 0.5 ay-admin Ville
+06.03.2019 0.5 ay-admin Ville
+06.03.2019 0.5 ay-amosintegrations Ville
+06.03.2019 0.5 ay-amosintegrations Ville
+06.03.2019 0.5 Low Ville
+06.03.2019 0.5 ay-digidm Ville
+06.03.2019 0.5 ay-amosintegrations Viivi
+07.03.2019 1.5 ay-amosintegrations Olli
+07.03.2019 3.0 ay-amosintegrations Olli
+07.03.2019 1.0 ay-qpulse-trafi-integration Kaarlo
+07.03.2019 0.5 ay-amosintegrations Ville
+07.03.2019 1.0 ay-digidm Ilari
+07.03.2019 0.5 ay-admin Lassi
+08.03.2019 0.5 ay-admin Lassi
+08.03.2019 1.0 ay-digidm Ilari
+11.03.2019 0.5 ay-maintops Ilari
+11.03.2019 0.5 ay-opsmetrics Ilari
+12.03.2019 0.5 ay-quintiq Markus
+12.03.2019 2.0 ay-maintops Ilari
+12.03.2019 4.0 ay-digidm Ilari
+12.03.2019 1.0 ay-digidm Ilari
+12.03.2019 0.5 ay-admin Ville
+12.03.2019 2.5 ay-quintiq Ville
+12.03.2019 0.5 ay-digidm Ilari
+12.03.2019 1.0 ay-digidm Ville
+12.03.2019 0.5 Low Ville
+12.03.2019 0.5 ay-admin Ville
+12.03.2019 1.0 ay-quintiq Ville
+12.03.2019 0.5 ay-amosintegrations Ville
+12.03.2019 0.5 ay-maintops Ilari
+13.03.2019 0.5 ay-digidm Ilari
+13.03.2019 0.5 Low Ilari
+13.03.2019 2.0 ay-maintops Ilari
+13.03.2019 0.5 ay-amosintegrations Ville
+13.03.2019 0.5 ay-amosintegrations Ville
+13.03.2019 0.5 ay-admin Ville
+13.03.2019 0.5 Low Ville
+13.03.2019 1.5 ay-quintiq Ville
+13.03.2019 1.5 ay-quintiq Ville
+13.03.2019 0.5 ay-amosintegrations Ville
+13.03.2019 2.0 ay-quintiq Ville
+14.03.2019 2.0 Low Viivi
+14.03.2019 0.5 ay-quintiq Markus
+14.03.2019 0.5 ay-digidm Ilari
+14.03.2019 0.5 Other Ville
+14.03.2019 0.5 ay-amosintegrations Ville
+15.03.2019 0.5 ay-quintiq Ville
+16.03.2019 0.5 enginedata.io Ville
+18.03.2019 1.0 enginedata.io Ilari
+18.03.2019 0.5 ay-amosintegrations Ville
+19.03.2019 1.0 ay-quintiq Markus
+20.03.2019 0.5 ay-admin Ville
+20.03.2019 0.5 Other Ville
+20.03.2019 0.5 ay-amosintegrations Ville
+20.03.2019 0.5 Low Ville
+20.03.2019 0.5 mrotools.io Ville
+20.03.2019 1.0 ay-amosintegrations Ville
+20.03.2019 0.5 ay-amosintegrations Viivi
+21.03.2019 1.0 ay-amosintegrations Olli
+21.03.2019 0.5 ay-quintiq Markus
+21.03.2019 1.0 ay-quintiq Markus
+21.03.2019 0.5 Low Ville
+21.03.2019 0.5 ay-amosintegrations Viivi
+22.03.2019 0.5 ay-admin Ville
+22.03.2019 0.5 ay-admin Ville
+22.03.2019 0.5 ay-amosintegrations Olli
+24.03.2019 0.5 mrotools.io Ville
+24.03.2019 3.0 mrotools.io Ilari
+25.03.2019 0.5 ay-amosintegrations Ville
+25.03.2019 0.5 ay-admin Ville
+25.03.2019 0.5 enginedata.io Ville
+25.03.2019 0.5 ay-quintiq Ville
+25.03.2019 1.0 ay-amosintegrations Ville
+25.03.2019 1.0 ay-maintops Ilari
+26.03.2019 0.5 ay-qpulse-trafi-integration Kaarlo
+26.03.2019 1.0 Low Kaarlo
+27.03.2019 0.5 ay-other Ilari
+28.03.2019 0.5 ay-amosintegrations Viivi
+28.03.2019 0.5 mrotools.io Viivi
+28.03.2019 1.0 ay-maintops Viivi
+28.03.2019 0.5 ay-admin Ville
+28.03.2019 0.5 ay-amosintegrations Ville
+29.03.2019 0.5 ay-quintiq Markus
+29.03.2019 0.5 ay-admin Olli
+29.03.2019 3.0 ay-amosintegrations Olli
+30.03.2019 0.5 Low Ville
+30.03.2019 0.5 mrotools.io Ville
+30.03.2019 0.5 ay-amosintegrations Ville
+30.03.2019 0.5 ay-admin Ville
+30.03.2019 0.5 ay-amosintegrations Ville
+30.03.2019 0.5 Other Ville
+30.03.2019 1.0 Other Ville
+30.03.2019 2.5 Other Ville
+01.04.2019 1.0 ay-amosintegrations Marcus
+01.04.2019 0.5 ay-quintiq Marcus
+01.04.2019 0.5 ay-admin Lassi
+01.04.2019 0.5 ay-quintiq Marcus
+01.04.2019 0.5 ay-quintiq Marcus
+01.04.2019 0.5 ay-quintiq Marcus
+01.04.2019 0.5 ay-admin Marcus
+01.04.2019 1.0 ay-admin Marcus
+01.04.2019 1.0 ay-admin Marcus
+01.04.2019 0.5 ay-amosintegrations Ville
+02.04.2019 0.5 ay-admin Lassi
+02.04.2019 3.0 ay-amosintegrations Olli
+02.04.2019 0.5 mrotools.io Olli
+02.04.2019 0.5 ay-amosintegrations Ilari
+03.04.2019 0.5 Other Olli
+03.04.2019 0.5 ay-admin Lassi
+03.04.2019 0.5 ay-digitalization Lassi
+03.04.2019 0.5 ay-digitalization Ilari
+03.04.2019 1.0 ay-amosintegrations Ville
+03.04.2019 0.5 ay-amosintegrations Ville
+03.04.2019 0.5 ay-amosintegrations Ville
+04.04.2019 0.5 ay-amosintegrations Viivi
+04.04.2019 0.5 mrotools.io Petrus
+04.04.2019 0.5 ay-admin Lassi
+04.04.2019 0.166666666667 mrotools.io Petrus
+04.04.2019 0.5 ay-quintiq Ville
+04.04.2019 0.5 ay-amosintegrations Ville
+04.04.2019 0.5 ay-amosintegrations Ville
+05.04.2019 0.5 ay-quintiq Markus
+05.04.2019 1.0 ay-amosintegrations Viivi
+05.04.2019 0.5 ay-admin Lassi
+05.04.2019 0.5 ay-amosintegrations Lassi
+05.04.2019 0.5 ay-amosintegrations Ville
+05.04.2019 1.0 ay-amosintegrations Lassi
+05.04.2019 0.5 ay-amosintegrations Ville
+05.04.2019 1.0 ay-amosintegrations Ville
+07.04.2019 0.5 ay-amosintegrations Ville
+08.04.2019 0.5 ay-other Olli
+08.04.2019 0.5 ay-other Olli
+08.04.2019 0.5 ay-admin Lassi
+09.04.2019 0.5 ay-amosintegrations Olli
+09.04.2019 0.5 ay-admin Lassi
+09.04.2019 0.5 ay-admin Lassi
+09.04.2019 0.5 ay-qpulse-trafi-integration Lassi
+09.04.2019 0.5 ay-admin Lassi
+09.04.2019 1.5  Atte Luomala and Janne Miettinen" Lassi
+09.04.2019 0.5 mrotools.io Ville
+09.04.2019 0.5 ay-amosintegrations Ville
+09.04.2019 0.5 ay-amosintegrations Ville
+09.04.2019 1.0 ay-maintops Ilari
+10.04.2019 0.5 ay-amosintegrations Ville
+10.04.2019 0.5 ay-amosintegrations Ville
+10.04.2019 0.5 ay-admin Lassi
+10.04.2019 0.5 ay-quintiq Ville
+10.04.2019 0.5 ay-quintiq Marcus
+10.04.2019 0.25 mrotools.io Petrus
+10.04.2019 0.5 ay-qpulse-trafi-integration Lassi
+11.04.2019 0.5 ay-admin Lassi
+11.04.2019 0.5 ay-quintiq Ville
+11.04.2019 0.5 ay-amosintegrations Ville
+11.04.2019 0.5 ay-amosintegrations Viivi
+11.04.2019 0.5 ay-amosintegrations Olli
+11.04.2019 0.5 ay-amosintegrations Olli
+11.04.2019 1.0 ay-qpulse-trafi-integration Marcus
+11.04.2019 4.0 ay-qpulse-trafi-integration Kaarlo
+11.04.2019 0.5 ay-qpulse-trafi-integration Lassi
+11.04.2019 0.5 ay-opsmetrics Lassi
+11.04.2019 1.5 ay-qpulse-trafi-integration Kaarlo
+11.04.2019 1.0 ay-quintiq Markus
+12.04.2019 0.5 ay-admin Lassi
+12.04.2019 0.5 ay-amosintegrations Ville
+12.04.2019 0.5 ay-amosintegrations Ville
+12.04.2019 0.5 ay-digidm Ilari
+12.04.2019 1.5 ay-quintiq Ville
+12.04.2019 0.5 ay-maintops Ilari
+15.04.2019 0.5 ay-admin Lassi
+15.04.2019 1.0 Other Lassi
+16.04.2019 0.5 ay-admin Lassi
+16.04.2019 0.5 ay-opsmetrics Ilari
+16.04.2019 0.5 ay-qpulse-trafi-integration Lassi
+17.04.2019 0.5 ay-admin Lassi
+17.04.2019 0.5 Low Lassi
+17.04.2019 0.5 ay-amosintegrations Lassi
+17.04.2019 1.0 ay-digidm Ilari
+18.04.2019 0.5 ay-amosintegrations Viivi
+19.04.2019 0.5 ay-admin Lassi
+20.04.2019 0.5 ay-admin Lassi
+20.04.2019 0.5 ay-digidm Lassi
+22.04.2019 0.5 ay-admin Lassi
+23.04.2019 0.5 ay-admin Lassi
+23.04.2019 1.0 ay-amosintegrations Ville
+23.04.2019 0.5 ay-opsmetrics Olli
+23.04.2019 2.0 ay-qpulse-trafi-integration Kaarlo
+23.04.2019 1.0 ay-amosintegrations Olli
+24.04.2019 0.5 ay-admin Lassi
+24.04.2019 1.5 ay-amosintegrations Ville
+24.04.2019 1.0 Low Lassi
+24.04.2019 0.5 ay-digidm Lassi
+24.04.2019 2.5 ay-digidm Ilari
+25.04.2019 0.5 ay-admin Olli
+25.04.2019 0.5 ay-admin Lassi
+25.04.2019 0.5 mrotools.io Olli
+25.04.2019 0.5 mrotools.io Petrus
+26.04.2019 0.5 mrotools.io Petrus
+26.04.2019 0.5 ay-amosintegrations Viivi
+26.04.2019 0.5 ay-admin Lassi
+26.04.2019 0.5 ay-maintops Lassi
+27.04.2019 1.0 ay-digitalization Lassi
+29.04.2019 0.5 ay-admin Ville
+29.04.2019 1.0 enginedata.io Ville
+29.04.2019 1.0 ay-amosintegrations Ville
+29.04.2019 1.0 ay-opsmetrics Markus
+29.04.2019 1.0 ay-quintiq Markus
+29.04.2019 0.5 ay-amosintegrations Ville
+29.04.2019 3.0 ay-qpulse-trafi-integration Kaarlo
+30.04.2019 1.0 ay-digidm Ilari
+30.04.2019 0.5 ay-digidm Ville
+30.04.2019 0.5 ay-amosintegrations Lassi
+30.04.2019 0.5 ay-amosintegrations Ville
+30.04.2019 1.5 Low Lassi
+30.04.2019 0.5 mrotools.io Ville
+30.04.2019 0.5 ay-opsmetrics Lassi
+30.04.2019 0.5 Low Lassi
+02.05.2019 4.0 ay-digidm Ilari
+02.05.2019 0.5 ay-maintops Ilari
+ 1.0
+Ville 2.8375
+Sami 1.0
+Marco 1.30357142857
+Katja 1.0
+Viivi 1.78787878788
+Marcus 2.05882352941
+Markus 2.0
+Lassi 4.08974358974
+Petrus 1.22857142857
+Kaarlo 1.32608695652
+Ari 1.0
+Ilari 1.53448275862
+Patrik 1.09523809524
+Olli 1.225
+Juha 1.51785714286
+Valtteri 1.0
+
+Ville
+Petrus
+Olli
+Ville
+Sami
+Viivi
+Marcus
+Markus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Olli
+Marcus
+Sami
+Marco
+Viivi
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Juha
+Lassi
+Olli
+Ville
+Viivi
+Katja
+Lassi
+Patrik
+Valtteri
+Marcus
+Sami
+Marco
+Markus
+Lassi
+Juha
+Ville
+Marco
+Katja
+Viivi
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Ilari
+Ville
+Marcus
+Sami
+Marco
+Kaarlo
+Lassi
+Juha
+Olli
+Ville
+Katja
+Viivi
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Valtteri
+Olli
+Ville
+Sami
+Marco
+Marcus
+Ilari
+Ari
+Lassi
+Juha
+Ville
+Sami
+Valtteri
+Marcus
+Petrus
+Ilari
+Lassi
+Ville
+Marco
+Marcus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Markus
+Lassi
+Ari
+Juha
+Olli
+Marcus
+Sami
+Marco
+Ville
+Markus
+Juha
+Marcus
+Sami
+Marco
+Ville
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Ville
+Lassi
+Sami
+Marcus
+Olli
+Marcus
+Sami
+Ville
+Petrus
+Juha
+Lassi
+Olli
+Ville
+Marco
+Viivi
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Juha
+Ville
+Sami
+Marco
+Viivi
+Marcus
+Markus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Olli
+Marcus
+Sami
+Marco
+Ville
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Lassi
+Olli
+Marcus
+Marco
+Valtteri
+Viivi
+Ville
+Markus
+Kaarlo
+Patrik
+Lassi
+Juha
+Olli
+Ville
+Sami
+Viivi
+Marcus
+Markus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Ville
+Sami
+Marco
+Marcus
+Markus
+Petrus
+Kaarlo
+Patrik
+Juha
+Ville
+Sami
+Marco
+Marcus
+Petrus
+Ilari
+Lassi
+Juha
+Ville
+Sami
+Valtteri
+Viivi
+Marcus
+Kaarlo
+Ilari
+Lassi
+Ville
+Sami
+Marco
+Marcus
+Kaarlo
+Ilari
+Ari
+Lassi
+Juha
+Olli
+Ville
+Sami
+Valtteri
+Marcus
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Olli
+Ville
+Sami
+Marcus
+Petrus
+Ari
+Lassi
+Juha
+Olli
+Ville
+Sami
+Marco
+Viivi
+Marcus
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Ville
+Lassi
+Sami
+Ilari
+Marcus
+Marcus
+Sami
+Marco
+Ville
+Ilari
+Juha
+Marcus
+Sami
+Marco
+Viivi
+Ville
+Markus
+Kaarlo
+Patrik
+Lassi
+Juha
+Ville
+Sami
+Marco
+Marcus
+Markus
+Ilari
+Lassi
+Marcus
+Sami
+Marco
+Ville
+Markus
+Petrus
+Patrik
+Juha
+Ville
+Sami
+Marco
+Marcus
+Markus
+Patrik
+Kaarlo
+Ari
+Lassi
+Juha
+Ville
+Marcus
+Marco
+Sami
+Lassi
+Marcus
+Sami
+Marco
+Juha
+Ville
+Olli
+Ville
+Sami
+Marco
+Petrus
+Kaarlo
+Ilari
+Lassi
+Juha
+Ville
+Sami
+Marco
+Viivi
+Marcus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Viivi
+Ville
+Markus
+Petrus
+Kaarlo
+Patrik
+Juha
+Olli
+Marcus
+Sami
+Marco
+Ville
+Markus
+Petrus
+Patrik
+Lassi
+Juha
+Ville
+Sami
+Marco
+Viivi
+Marcus
+Markus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Viivi
+Markus
+Petrus
+Kaarlo
+Patrik
+Juha
+Olli
+Sami
+Marco
+Markus
+Lassi
+Juha
+Ville
+Sami
+Marcus
+Kaarlo
+Ilari
+Lassi
+Sami
+Marco
+Markus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Juha
+Ville
+Sami
+Viivi
+Marcus
+Kaarlo
+Patrik
+Lassi
+Sami
+Patrik
+Markus
+Kaarlo
+Ilari
+Lassi
+Ari
+Marcus
+Sami
+Viivi
+Ville
+Markus
+Petrus
+Kaarlo
+Ilari
+Patrik
+Lassi
+Olli
+Ville
+Sami
+Marcus
+Kaarlo
+Lassi
+Marcus
+Sami
+Marco
+Patrik
+Lassi
+Patrik
+Ilari
+Ari
+Ville
+Olli
+Ville
+Sami
+Marco
+Viivi
+Marcus
+Markus
+Kaarlo
+Lassi
+Juha
+Olli
+Marcus
+Sami
+Marco
+Ville
+Markus
+Juha
+Lassi
+Ville
+Sami
+Marcus
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Kaarlo
+Juha
+Ville
+Ville
+Sami
+Marco
+Marcus
+Ilari
+Lassi
+Ari
+Juha
+Ville
+Sami
+Marco
+Marcus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Olli
+Marcus
+Sami
+Marco
+Markus
+Petrus
+Kaarlo
+Ilari
+Patrik
+Juha
+Ville
+Sami
+Marco
+Marcus
+Markus
+Ilari
+Lassi
+Juha
+Olli
+Ville
+Sami
+Viivi
+Marcus
+Markus
+Petrus
+Ilari
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Ville
+Petrus
+Kaarlo
+Patrik
+Ville
+Sami
+Marcus
+Ilari
+Lassi
+Patrik
+Petrus
+Marco
+Markus
+Petrus
+Kaarlo
+Ilari
+Lassi
+Ari
+Juha
+Olli
+Marcus
+Sami
+Marco
+Ville
+Petrus
+Patrik
+Kaarlo
+Ilari
+Ari
+Lassi
+Juha
+Lassi
+Ilari
+Lassi
+Ari
+Ville
+Sami
+Marcus
+Markus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Marcus
+Sami
+Marco
+Ville
+Petrus
+Ilari
+Lassi
+Juha
+Olli
+Marcus
+Marco
+Ville
+Sami
+Marco
+Viivi
+Petrus
+Ilari
+Ari
+Lassi
+Juha
+Lassi
+Kaarlo
+Olli
+Ville
+Sami
+Marco
+Marcus
+Markus
+Ilari
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Juha
+Markus
+Sami
+Marco
+Markus
+Petrus
+Lassi
+Ari
+Juha
+Lassi
+Olli
+Marcus
+Sami
+Ville
+Ilari
+Lassi
+Juha
+Marcus
+Sami
+Juha
+Ari
+Olli
+Ville
+Sami
+Marco
+Marcus
+Ilari
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Viivi
+Markus
+Petrus
+Kaarlo
+Patrik
+Lassi
+Juha
+Olli
+Marcus
+Sami
+Marco
+Ville
+Kaarlo
+Patrik
+Juha
+Olli
+Ville
+Sami
+Marco
+Marcus
+Markus
+Petrus
+Ilari
+Patrik
+Lassi
+Juha
+Marcus
+Sami
+Marco
+Markus
+Petrus
+Kaarlo
+Patrik
+Juha
+Sami
+Marco
+Viivi
+Markus
+Petrus
+Lassi
+Juha
+Olli
+Marcus
+Sami
+Ville
+Ari
+Lassi
+Olli
+Lassi
+Marco
+Juha
+Ville
+Sami
+Marco
+Viivi
+Marcus
+Kaarlo
+Ari
+ 1.0
+Ville 2.09375
+Sami 1.18055555556
+Marco 2.375
+Katja 1.66666666667
+Viivi 1.875
+Marcus 4.30882352941
+Markus 3.375
+Lassi 3.37142857143
+Petrus 1.25714285714
+Kaarlo 2.67441860465
+Ari 1.0
+Ilari 1.51428571429
+Patrik 3.83333333333
+Olli 1.09677419355
+Juha 2.35714285714
+Valtteri 1.5
+ 0
+01 0
+02 0
+03 0
+04 0

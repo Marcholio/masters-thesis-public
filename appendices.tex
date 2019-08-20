@@ -1,0 +1,176 @@
+\chapter{Survey structure}
+\label{appendix:survey}
+
+\begin{center}
+
+This is the structure for the knowledge sharing survey conducted at the beginning of February and at the end of April.
+The survey was created with Google Forms.
+
+\vspace{12pt}
+
+\textbf{Notation:} \\
+\textbf{This is a question} \\
+\emph{This is an additional text from the survey} \\
+These are clarifications for documenting purposes
+
+\vspace{12pt}
+
+\textbf{What is your role?} \\
+\emph{Select the most suitable one}
+
+\begin{itemize}
+	\itemsep0em % Item separation
+	\item \begin{center} \emph{Junior developer} \end{center}
+	\item \begin{center} \emph{Senior developer} \end{center}
+	\item \begin{center} \emph{Junior consultant} \end{center}
+	\item \begin{center} \emph{Senior consultant} \end{center}
+	\item \begin{center} \emph{Executive} \end{center}
+\end{itemize}
+
+\textbf{Work experience in years at QOCO?} \\
+Integer scale from 0 to 10
+
+\vspace{12pt}
+
+\textbf{How familiar are you with these projects?} \\
+List of 34 projects in random order, each evaluated with a 6-point scale:
+
+\begin{enumerate}
+	\itemsep0em % Item separation
+	\setcounter{enumi}{-1}
+	\item \begin{center} \emph{I do not know the business case} \end{center}
+	\item \begin{center} \emph{I am familiar with the business case} \end{center}
+	\item \begin{center} \emph{I am familiar with the business case and general architecture} \end{center}
+	\item \begin{center} \emph{I can do some minor tasks} \end{center}
+	\item \begin{center} \emph{I can do major tasks} \end{center}
+	\item \begin{center} \emph{I know this project in detail} \end{center}
+\end{enumerate}
+
+\vspace{12pt}
+
+\textbf{Do you think following barriers are a challenge at QOCO?} \\
+\emph{Knowledge sharing barriers are things that disturb or prevent sharing of knowledge. Think especially in the context of QOCO Systems.}
+
+\vspace{12pt}
+
+5-step Likert scale (\emph{Strongly disagree, Disagree, Neither agree or disagree, Agree, Strongly agree}) was used to evaluate 20 knowledge sharing barriers in random order:
+
+\vspace{12pt}
+
+\emph{Lack of formal documentation\\
+Lack of informal documentation\\
+Lack of comments in code\\
+Lack of trust\\
+Messy and complex code\\
+Lack of informal communication\\
+Knowledge hoarding\\
+Difference in experience levels\\
+Tight schedule\\
+Lack of motivation\\
+Used communication tools\\
+Multitasking\\
+Complex domain (aviation industry)\\
+Working in different locations\\
+Difference in age\\
+Individual communication skills\\
+Strong code ownership\\
+Physical work environment\\
+Organization culture\\
+Strong organizational structure}
+
+\vspace{12pt}
+
+\end{center}
+
+\chapter{README template}
+\label{appendix:readme}
+
+\begin{tiny}
+	\begin{verbatim}
+
+# qoco-readme
+
+### Table of Contents  
+- [qoco-readme](#qoco-readme)
+    - [Table of Contents](#table-of-contents)
+  - [Business case](#business-case)
+  - [Development](#development)
+    - [Prerequisites](#prerequisites)
+    - [Setting up local development environment](#setting-up-local-development-environment)
+    - [Building](#building)
+    - [Running or Usage](#running-or-usage)
+    - [Deploying](#deploying)
+  - [Environments](#environments)
+  - [Support](#support)
+  - [Related / dependent projects](#related--dependent-projects)
+  - [Known limitations](#known-limitations)
+
+
+## Business case
+
+The business case of the project is briefly described here. What does this project do? Why does it exist?
+
+This README template is meant to improve informal documentation of projects. It is meant to be used as a reference material about
+necessary information required for README. It can be modified to fit the context of different projects, but the template itself
+should be kept on a general level to ensure suitability for different use cases.
+
+## Development
+
+### Prerequisites
+A list of prerequisites for this project and instructions on how to get them.
+* [A Github account](https://github.com/)
+* [Markdown editor](https://code.visualstudio.com/)
+* [Git](https://git-scm.com/)
+
+### Setting up local development environment
+Steps needed to setup the local development environment.
+
+Clone repository:
+```git clone git@github.com:QOCOSystems/qoco-readme.git```
+
+### Building
+Steps needed to build or install the project. Additional information about build tools can be presented.
+
+This project is a simple markdown file, so no additional build steps are required.
+
+### Running or Usage
+Steps needed to run or start the project. Additional information about runtime parameters etc. can be presented.
+
+This project can't be run, it is meant to be copied to the root folder of a project in a default branch so that it is the first
+thing that developers see when they open the repository. The template acts as a starting point and reference material to create
+a project specific README and after copying it should be modified to fit the specific context.
+
+### Deploying
+Steps needed to deploy the project to dev/preprod/prod environments.
+
+This project is hosted on GitHub and it is deployed by creating a pull request to master branch (see [Contributing](CONTRIBUTING.md))
+
+## Environments
+
+A list of environments this project is deployed to. Also a description of artifacts or architecture overview can be added.
+
+| Stage | Environment | Artifacts          |
+|:------|:------------|:-------------------|
+| Prod  | Github      | README.md template |
+
+## Support
+
+Who knows something about this project? Where to find more documentation?
+
+This template was first created as a part of master's thesis by Markus Tyrkkö.
+
+## Related / dependent projects
+
+List of projects that use the API provided by this project for example, or are otherwise dependent or related to this one.
+Also a brief description about how they are related to this would be nice to have. An overview of architecture can also be added here.
+
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  * A cheatsheet for markdown syntax
+
+## Known limitations
+
+A list of known limitations or issues. This might not be necessary as issues could be tracked using other issue tracking methods,
+but if there is something that should be mentioned in README already, it could be added here.
+
+	\end{verbatim}
+\end{tiny}

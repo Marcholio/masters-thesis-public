@@ -1,0 +1,74 @@
+\chapter{Implementation}
+\label{chapter:implementation}
+
+Three solutions out of all proposals were selected for the implementation phase: pair working combined with rotating triage responsibility, project presentations
+and a README template. Initial considerations about practicalities were discussed with the COO and CCO to assign responsibilities and agree about the practical
+implementation of each solution.
+This chapter presents these initial implementation plans together with adjustments done during the implementation phase.
+
+\section{Triage responsibility and pair working}
+
+Rotating triage responsibility combined with pair working was considered the main solution and it also required the most preparations as it required careful planning to succeed.
+The very first preparation for the triage process was to double the amount of Freshdesk licenses from five to ten. This allows sufficient amount of people to participate
+in the triage process, although five of the licenses were assigned for part-time employees. After increasing the amount of licenses, a need for guidelines for both Freshdesk
+triage principles and pair working practices was quickly identified as there was no structured instructions on how Freshdesk was
+actually being used and how it was meant to be used. Previously the practices had been tacit knowledge and based on a mutual agreement between Freshdesk users. However, as the
+amount of Freshdesk licenses was doubled, this was no longer scalable and there was a need for explicit instructions. It was agreed that it would be a
+responsibility of the COO, as he had a clear understanding of the Freshdesk process and its relationship with billing for example. The initial instructions were also reviewed
+by other employees and added as a part of QOCO playbook, which contains general instructions about organizational practices.
+
+In addition to the Freshdesk usage instructions, it was also noted that a pair working guideline is required as everyone intended to participate in pair working
+was not familiar with detailed pair working practices beforehand. This was assigned as a responsibility of the researcher as he was already familiar with pair
+programming literature. It was also noted that pair programming is a well known practice and there are plenty of good guidelines available online, which could be 
+utilized as a reference material. After a brief review on available materials, a GitHub gist by \citet{Sarrafieh2017} was selected as a template to be
+customized for QOCO's purposes.
+
+It was also identified that writing instructions about the usage of Freshdesk and pair working was not enough to succeed in adoption of new practices. As the plan was to change
+the person responsible for triage on a daily basis, selecting the responsible for each day required a well planned procedure. To reduce change resistance and encourage
+independent participation, it was considered a good solution to let employees reserve their triage turns with Google calendar. As Google calendar was already used for
+vacation planning and other daily activities, it was a natural tool to be used for triage turns as well. In addition to the calendar, also a dedicated Slack channel was created
+to discuss about triage related matters and gather feedback. Another convenient feature with a dedicated channel was an integration to Google calendar so that it would
+automatically report who is in charge of triage for the day and additionally report a summary about oncoming week on Monday mornings. In addition to these reminders, it was
+noted that there should still be someone overseeing the process and ensuring that each day actually has a responsible assigned. This was agreed to be responsibility of 
+the researcher and he would check every Wednesday that next week's turns are assigned, and if they are not, remind people about it.
+
+Shortly after the initial launch of the triage process, concerns about noticing tickets were raised. It was considered that it would be the easiest if Freshdesk would notify
+the daily responsible automatically about newly created tickets so that the responsible would not need to constantly check for updates. As Freshdesk did not support this
+functionality out of the box, a separate Slack channel for ticket notifications was created. The idea was that at the beginning of the shift, the new responsible joins the
+channel and reviews the tickets that have been created after the last responsible left the channel. Then Freshdesk would continue to post notifications about newly created
+tickets to the channel during the day and the responsible does not need to check Freshdesk itself frequently. Additionally as Slack supports a wide range of emoji reactions
+to messages, it was also agreed that the daily responsible should put a check mark on ticket notifications after they have been handled. This way it is easier for the next
+person to see which tickets are still waiting for triaging.
+
+It was also evident already during the first days of the triage process that SLA limits and definitions for different priority levels required clarification. These clarifications
+were added to QOCO playbook together with other triage guidelines. In addition to that, also a response template was added to Freshdesk describing resolution times for different
+priority levels. Its purpose was to remind the customers about agreed resolution times, since it was considered that they were partly unclear. The intended use for the response template
+was to be automatically added to the first response on new tickets and it could be left out in consecutive messages.
+
+\section{README template}
+
+README template did not require as much preparations as its use case was much more straightforward. The first version of the template was created to GitHub by the researcher
+after studying the literature and several example templates available online. There was no single template that would have acted as an initial starting point to be adapted to
+QOCO's context as quite many of the example templates were aimed for public open source projects rather than acting as an informal internal project documentation for some
+company. Therefore it was decided that the template is created from scratch based on general headlines from the literature and open source templates. The first version
+of the template is presented in appendix \ref{appendix:readme}. As said, it is the first version and it is meant to be updated if there are mistakes or things to be added to it
+later on. The template was then explained in a company wide Slack channel and its usage was encouraged in projects under active development.
+
+In addition to the template itself, it was also considered useful to create an example use case of it to some recent project. There was one project that had recently entered
+the maintenance phase and was considered a useful example case. Therefore it was agreed that the researcher will update its README to match the newly created template.
+This was also a good evaluation for the template as using it in an actual case could point out some missing features that could not be noticed while creating dummy content.
+
+\section{Project presentations}
+
+There were a few possible preparations that could have been done to decrease the effort required to prepare the project presentations. At first it was discussed that some
+slide show template could potentially lower the barrier of preparing presentations as it would have all the necessary points already listed. However it was also pointed out
+that the same effect could be achieved with a plain checklist as it could be difficult to create a useful slide show template to serve various use cases. It was agreed
+that plain checklists for different use cases would be enough as a starting point and slide show templates could be added later on, if considered necessary. The checklist
+was added to QOCO playbook so that it would be easily accessible and updatable by everyone. In addition a shared folder in Google Drive was created to store the presentation
+materials.
+
+There was also an idea about having presentations in different phases of a project and therefore it was agreed that it would be beneficial to try out presentations with
+projects in different phases to gather feedback about which presentations were considered useful and which not. The initial plan was to have at least four presentations:
+the first production deployment of one project, the newest features of a SaaS project, the business case of a relatively new project and the initial plan of an upcoming project.
+To ease feedback gathering, a simple feedback form was created with Google Forms with a simple scale from zero to five as the only mandatory question and a voluntary
+open comment field.

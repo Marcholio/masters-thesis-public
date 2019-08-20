@@ -1,0 +1,284 @@
+\chapter{Research methods}
+\label{chapter:methods}
+
+This chapter describes the design of this study. First, the selected approach is discussed and compared to other suitable approaches. After that, all data collection
+methods are presented, which is followed by a description of each research phase in detail.
+
+\section{Research approach}
+
+The aim of this study was to solve an abstract
+problem in the case company's context, meaning that it could not be solved by using only quantitative methods. Since qualitative methods typically assume that
+the world is socially constructed and context-dependent, they fit the setting of this research better than quantitative methods \citep{Merriam2002}.
+A description of possible approaches together with an evaluation on their suitability for this study is presented next, which leads to a justified selection of an approach for this study.
+
+\subsection{Comparison of possible approaches}
+As mentioned, the goal of this study was to solve an abstract problem that the case company has identified. Possible approaches to reach this goal could be
+\emph{case study, design science, ethnography} or \emph{action research} \citep{Easterbrook2008}.
+
+\subsubsection*{Case study}
+
+Case study has many contradicting definitions in software engineering literature causing confusion \citep{Easterbrook2008}\citep{Runeson2009}\citep{Runeson2012}.
+A wide range of studies varying from lab experiments to large field operations could be called a case study, but at the same time, similar studies are also called
+\emph{field studies} or \emph{observational studies} \citep{Runeson2012}. Despite the confusion, both \citet{Easterbrook2008} and \citet{Runeson2009}
+agree that the definition presented by \citet[p.~13]{Yin2003} is the correct one that actually defines the term \emph{"case study"} as it should be used.
+According to \citet[p.~13]{Yin2003} a case study
+investigates a phenomenon in its natural context, especially when the boundary between the context and the phenomenon itself is unclear. So case studies focus on understanding a certain
+phenomenon in a certain context describing the reasons and causalities behind it. A case study is a useful approach for real-life situations where the boundary between
+a phenomenon and its environment is rarely clear-cut, which rules out controlled experiments for example. A precondition for conducting a case study is to have a clear and
+concise research question focusing on explaining how and why certain phenomenon occurs or exists. \citep{Easterbrook2008}
+
+There are generally two types of case studies:
+\emph{exploratory} and \emph{confirmatory}. Exploratory case studies are initial studies that aim to understand some phenomenon and formulate theories about its
+presence, whereas confirmatory case studies aim to validate existing theories in new cases. Both of them contribute to scientific knowledge by deriving new
+theories and validating existing ones. Despite the benefits of conducting a research in a natural context, it also poses threats to validity as researchers might be biased on 
+case selection, but also when evaluating the results as the researchers might interpret the findings to the favor of their theory. Therefore it is important to have
+an explicit framework for analyzing the findings and selecting the cases. Also a case study in a single case context should not be considered as a strong evidence and it should be
+confirmed with several other cases before the theory can be considered valid. \citep{Easterbrook2008}
+
+A case study is not exactly fit for the purpose of this
+study as it focuses on observing the phenomenon and deriving theories out of it rather than solving the actual problem, which is the interest of the case company. A pure case study
+would be appropriate if this study would be only focusing on the problem definition and its root causes.
+
+\subsubsection*{Design science}
+
+Design science is an approach that focuses on an engineering manner of creating artifacts to solve problems either in a real-life context or in a conceptual setting
+\citep{Offermann2009}. The problems selected are
+usually socio-technological, meaning that the researchers need to understand the social and technological environment they are working on \citep{Baskerville2009}.
+The artifact could be anything tangible that is created during the research process to address the identified problem, for example a piece of software or a process model
+\citep{Peffers2007}. Unlike a case study, design science can be conducted in a conceptual environment providing scientific knowledge that can then be applied
+in a real-life context \citep{Offermann2009}. Generally design science research consists of three main
+parts: \emph{problem identification}, \emph{solution design} and \emph{evaluation} \citep{Offermann2009}, but also a more detailed process has been proposed by
+\citet{Peffers2007} including six steps: \emph{problem identification}, \emph{definition of the objectives}, \emph{design and development}, \emph{demonstration},
+\emph{evaluation} and \emph{communication}. The general process is still similar starting from identifying the problem, continuing with development and finally ending with
+the evaluation of the developed solution.
+
+Design science is a suitable approach when a certain problem has already been identified and it is assumed that it can be solved
+by developing a single artifact, which also contributes to general scientific knowledge by deriving theory about the design of such artifact \citep{Offermann2009}.
+It could have been a possible approach for this study as it focuses on solving the problem rather than just observing and reporting it. However the problem
+in the case is abstract and a single artifact to solve it could not be identified, which effectively rules out the possibility of a design science approach.
+
+\subsubsection*{Ethnography}
+
+Ethnography is an approach that aims to understand social culture and practices by objectively observing them in their natural context \citep{Robinson2007}.
+Ethnographical research does not consider any existing frameworks or theories before observations and it does not make any assumptions about the studied community.
+The goal of this approach is to understand how the social culture of the studied community creates practices that are present and how the community
+communicates and collaborates. Ethnography is usually relying on outside observations where researcher stays outside the community and makes observations. Additional
+details might be added through interviews, but the main findings are drawn from the observations. However in some cases outside observations might not provide an in-depth
+understanding of the culture and therefore researchers need to become participants in the community. This is called \emph{participant observation} and it might
+yield a better understanding of the community, but it might also affect the results by introducing a bias to the setting. \citep{Easterbrook2008}
+
+Ethnography is a useful
+approach in cases where the culture and practices of the studied community is the focus point of interest. It requires significant amount of time spent on the field,
+but it also yields detailed findings about the culture and practices that are in use. The challenge of this approach is the time requirement and threats to validity that
+are inevitable since the participants are either aware that they are being studied or the researcher needs to be a solid part of the community, which has its own issues of bias.
+Ethnography is not a suitable approach for this study as it will only consider the culture and practices of the community rather than identifying and solving its problems.
+It is also notable that objective findings are not possible as the researcher has already been working for the case company for a relatively long time and is already part of the community.
+
+\subsubsection*{Action research}
+
+The last one of the approaches is action research, which \citet{Runeson2009} define to be focused on a change process through involvement in it. Action research is closely
+related to case study in a sense that they are both interested in studying a phenomenon in its natural context. The main difference between them is the fact that
+action research is focusing on solving the problem rather than just identifying it. Another difference is the fact that action research assumes that the need to
+solve the problem is always justified and self-evident
+whereas case study does not address solving the problem at all. It is also notable that solving the problem is done through involvement, so researchers are basically
+involved in the process they are studying \citep{Easterbrook2008}. Action research is also similar to design science on an abstract level as they both aim to solve the problem
+identified. The main difference between them are the methods of solving the problem since design science relies on developing an artifact whereas action research accepts
+all means of involvement to solve the problem. Another difference between action research and design science is their philosophical stance as action
+research is usually considered constructivist and anti-positivist whereas design science tends to have a positivist stance meaning that design science
+relies solely on logic and observations
+whereas action research accepts that the social context can not be studied extensively with scientific methods. \citep{Baskerville2009}
+
+Even though action research has been criticized for being an immature approach and lacking scientific validity, it is still a suitable approach for this
+study. This is because it fulfills the purpose of this study by focusing on a real effect on an actual problem rather than creating new general scientific knowledge.
+Even though action research
+is usually characterized as an iterative method having more than one cycle of development, testing and validating \citep{Easterbrook2008}, only one cycle will
+fit into the scope of this study due to limited time and resources. However this study serves as the first cycle of continuous improvement that will most likely continue
+after this study as well. Another exception to the typical action research approach is the philosophical stance of positivism
+instead of anti-positivism \citep{Easterbrook2008} as the change is measured using predetermined
+metrics that are selected to reflect the aspects that the case company considers important to improve. These metrics and their justification are
+presented in detail in section \ref{section:measuring}. In addition to the normal set of data collection methods for action research including interviews and
+observations, also a survey was used alongside with the data from existing systems to quantify the initial situation. Survey and data exports were selected
+to provide triangulation for qualitative data and to gain further insight on the problem and the effectiveness of changes. Data export methods are presented in 
+section \ref{subsection:export} and details of the survey in section \ref{subsection:survey} and appendix \ref{appendix:survey}.
+
+\section{Data collection}
+
+This study utilized four data collection methods mainly focusing on qualitative instead of quantitative data. This is because the problem to be solved is abstract and
+action research relies on qualitative data on problem identification and solution evaluation. For qualitative data, interviews and workshops were used as a data collection
+method. Additionally there was a need to measure the effectiveness of the implemented solutions, which effectively requires quantitative data. This was collected with a
+survey about maintenance knowledge and analyzing data exports from existing systems. Each of these methods are presented in detail in the following sections.
+
+\subsection{Interviews}
+
+Interviews are commonly used for data collection in action research \citep{Easterbrook2008}. They can be seen as a natural way of communication through talking, which might
+explain their popularity \citep{Doody2013}. They are generally used to understand individuals, their situation, experiences
+and thoughts. There are generally three types of interviews that vary by their format: \emph{structured}, \emph{semi-structured} and \emph{unstructured} \citep{Doody2013}.
+This study utilized unstructured interviews as they are as close to a natural everyday interaction between the researcher and the interviewees. The term "unstructured" is a bit
+misleading as the interviews had a predetermined agenda and questions on the broad topic were prepared to avoid wasting time and resources on
+irrelevant topics \citep{Doody2013}.
+
+Interviews were used to identify managerial viewpoints to the process improvement. At the beginning of the study, two interviews were arranged to firstly identify the used maintenance
+models and problems in them and secondly, to prioritize the company focus points and metrics to represent them. After the initial interviews, the next interviews were related to
+presenting findings from the initial state analysis, defining goals for the solution proposals and evaluating possible solutions before presenting them to a wider audience. After the implementation
+phase, the results were also discussed with the executives in order to find different explanations and interpretations on them.
+
+These interviews were not audio recorded as they were on a general level and brief notes about the interviews were sufficient enough to memorize the key points.
+
+\subsection{Maintenance knowledge survey}
+\label{subsection:survey}
+
+Survey is a widely used method to collect both quantitative and qualitative data about a certain population \citep{Easterbrook2008}. Surveys are usually used to gather knowledge
+about a large population by picking a sample of it, but in smaller cases also the whole population can be included in the sample \citep{Kasunic2005}. The purpose of using
+survey in this study was to gather quantitative data about knowledge sharing that was already identified as an issue before this study. It is important
+to realize that survey is not a useful method to collect data about the past as people tend to remember things differently rendering its validity close to zero.
+Therefore surveys can only be used to measure the present situation \citep{Linaker2015}, which was also the intended use in this study. The previously identified
+problem and a hypotheses to be tested with the survey was that knowledge of certain projects was piling up on certain people. This means that there would be usually only a few persons
+who know certain projects in detail causing most of the maintenance tasks to fall on these persons. There was also a gut feeling about tight schedules being one of the main
+knowledge sharing barriers, which was also to be confirmed with the first survey in addition to evaluating several other knowledge sharing barriers identified from the
+literature (see section \ref{section:barriers} for details).
+
+For the purpose of sharing the survey for the whole company and to get the employees to answer to it, a web based survey was used as it has been proven to be easy to use
+and yield higher response rates than traditional paper surveys \citep{Kasunic2005}. Also the answers are much easier to process when they are already in a digital format.
+The survey was created with Google Forms \footnote{https://forms.google.com} that provides an easy to use interface for survey creation and analysis.
+To get the response rate as high as possible, the questions were kept simple and the overall survey short \citep{Linaker2015} having only five questions:
+two for demographic purposes, two main
+questions to test the hypothesis and one voluntary open-ended question about insights outside the main questions. The survey was presented to the COO of the case company
+as a pilot test after which the wording was improved \citep{Linaker2015} and some project names changed. Also the order of both projects and barriers was randomized
+so that there would not be any unwanted patterns due to certain order of questions. The survey was then distributed via a shared channel in Slack
+\footnote{https://slack.com} and reminders were sent via the same channel and during face-to-face discussions. The same survey was also repeated after the implementation phase
+to measure the change in maintenance knowledge. The final survey form used in both cases is presented in appendix \ref{appendix:survey}.
+
+The survey results were then analyzed and visualized using spreadsheets with predetermined metrics agreed with the executives. These metrics are presented in section
+\ref{section:measuring} and the initial survey results are fully presented in section \ref{section:survey-results-before}. The final results are presented in section \ref{section:metric-results}
+and analysis on them in chapter \ref{chapter:discussion}.
+
+\subsection{Workshops}
+
+A more collaborative way of gathering qualitative data instead of using interviews is workshops. The purpose of both workshops and interviews is the same: to gather
+knowledge about individuals' thoughts and feelings on some subject. The fundamental difference between interviews and workshops is their methodology, because interviews
+are usually discussions mainly with the researcher even in a group setting, whereas workshops encourage discussion between the participants while the researcher
+is facilitating and observing the discussion. Workshops are a suitable method for data collection in action research as it is a collaborative process of
+addressing certain problem after all \citep{Luscher2008}. Workshops also engage participants more than group interviews, which is highly beneficial for collaborative
+problem solving \citep{Coghlan2011}\citep{Leondelabarra1997}\citep{Tsoukas2009}.
+Additionally with good facilitation, workshops encourage all participants to share their thoughts, not just the
+ones with the loudest voice or in top managerial positions. From researchers point of view, they are also less time consuming, which means that with limited time available,
+there can be several workshops arranged on different topics compared to having just one set of individual interviews.
+It is also notable that workshops compared to interviews cause a participatory feeling for the participants, who are part of the change implementation in this study. This reduces
+change resistance as the change has been co-created rather than just being decided in a top-down manner by the researcher and managers. Therefore it is evident that workshops
+are more suitable as a main data collection method than interviews for this study and thus qualitative data was collected mainly with workshops.
+
+When designing a workshop it is important to identify the key participants, prepare necessary materials and design the structure of the session. \citet{Smeds2015} emphasize
+three key aspects of a successful knowledge co-creation workshop: \emph{participants}, \emph{boundary objects} and \emph{external facilitators}. First of all, the participants
+should be selected so that each relevant team is represented to provide different viewpoints to discussions \citep{Smeds2015}.
+This is addressed by arranging the workshops at a time that
+is suitable for most of the relevant participants. The focus group of this study is development teams so the schedule was arranged according to their needs. Secondly,
+it is important to prepare necessary materials for the workshop to get the discussion flowing as it might be difficult to discuss about the issues if everyone has a
+contradicting idea about the general topic to begin with. These materials are the \emph{boundary objects} for the discussion and their purpose is to ensure that everyone
+is talking about the same subject with the same terms \citep{Akkerman2011}. For the purpose of this study, boundary objects such as a process diagram was used. This diagram
+is presented in the figure \ref{fig:ticketing}. Lastly, according to \citet{Smeds2015} it would be beneficial to have an external facilitator as he would be
+outside the social norms and have an external, objective viewpoint. However due to the setting of this study and the researcher's relationship with the case company
+this is not possible, but it is still important to remember that the goal of the facilitator is to act as an external supervisor facilitating the discussion, rather than actively participating in it.
+
+The structural framework for the workshops organized in this study was selected to be Think-Pair-Share that was created by \citet{Lyman1987} in the 80s. It consist of three
+phases: \emph{individual thinking}, \emph{pair discussions} and \emph{group discussion}. The method starts by the facilitator presenting the topic and questions to be addressed.
+It is important that examples are not given at this point to avoid limiting the individual thinking of the participants \citep{Lyman1987}. The first phase, individual thinking, lasts
+for a short time and its purpose is to think about the problem individually while writing notes to sticky notes for example. After that the next phase is to find a pair
+or a group of three persons and then share the ideas from the first phase and discuss about them again taking notes about new ideas on sticky notes. An important aspect of 
+pairing is aiming to form pairs or groups that are not already familiar with each other to break the social boundaries and encourage truly creative thinking
+\citep{Leondelabarra1997}. After discussing in pairs, it is time to share the thoughts together with all the participants of the workshop. At this phase, similar sticky notes
+are collected together to form general concepts. Group discussion phase is the longest one as it will yield the results of the whole workshop that are then documented on
+sticky notes. In general Think-Pair-Share is an efficient way to use time so it is suitable for organizing short 1-hour workshops on the scope of this study. During this
+study there were three workshops organized in total, further information about their contents are presented in section \ref{section:phases}.
+
+\subsection{Data export from tracking systems}
+\label{subsection:export}
+
+In addition to collecting qualitative data that is useful for gathering individuals' thoughts and feelings, which are hard to measure, also quantitative data was required
+to represent the effectiveness of change. The case company generally had two quantitative data sources available for this study: an issue tracking system (Freshdesk
+\footnote{https://freshdesk.com}) and a time tracking system (Toggl \footnote{https://toggl.com}). Freshdesk holds information about reported incidents and their
+resolution process. For example it provides information about issue resolution times, reporters, projects and categories. This information was used to evaluate
+the efficiency of the overall process and to identify the points of improvement. Toggl on the other hand is used for tracking time that employees spent on both development and maintenance 
+tasks and it provides information about the projects they have been working on and the time they used for them. This data is useful for measuring overall time spending and to
+measure the balance between maintenance and development tasks. These datasets can also be combined to find explanations for certain aspects such as long resolution times
+due to busy development activities for example.
+
+The datasets were provided as Excel spreadsheets, which were then converted to CSV format and analyzed with Python \footnote{https://python.org}. Python scripts were
+used to analyze both ticket data from Freshdesk and time tracking data from Toggl. The values for metrics were then copied to a spreadsheet again for visualization purposes.
+The reason to use Python for analyzing the data was complexity of the initial dataset that was not directly suitable for spreadsheet analysis on selected metrics, thus
+requiring intermediate parsing with Python. Metrics selected to be analyzed were agreed with the CTO of the case company to reflect the most important focus points from
+the company's perspective. These metrics are presented in detail in section \ref{section:measuring} and their initial values in section \ref{section:findings-before}.
+The exports were also repeated after the implementation phase to measure the change in selected metrics. The results of the change analysis are presented in section \ref{section:metric-results}
+and implications on them are further discussed in chapter \ref{chapter:discussion}.
+
+\section{Research phases}
+\label{section:phases}
+
+Action research in general has five main phases: \emph{diagnosis}, \emph{action planning}, \emph{intervention}, \emph{evaluation} and \emph{reflection} \citep{Davison2004}.
+This study follows the general guideline by starting with analyzing the initial state, which is followed by proposing solutions. The next
+phase after agreeing about the actions to be taken was the implementation phase, which was followed by evaluation and reflection.
+Generally it would be beneficial to have several iterations of this cycle
+\citep{Davison2004}, but due to limitations of a master's thesis, there is only one cycle in total, which provides the methodology and a foundation for future improvements.
+Next each of these phases are presented in detail.
+
+\subsection{Initial state analysis}
+
+The first phase of this study was naturally analyzing the initial state. The goal of this phase was to identify the actual problem and the case company's needs for improvement.
+After this phase there was a mutual understanding of the key problems in the initial process and their internal priority, since they were not equally important to be solved
+from the case company's perspective. The phase began by having an interview with the company's CTO, COO and CCO about the initial maintenance processes and their evolution
+over time. During the first interview also already identified problems or thoughts about possible problems were discussed on a general level, which guided the decision
+of focus areas for a further study. One of the problems initially identified was knowledge sharing and it was decided that it requires further studying in a form of a survey
+to get a quantified analysis of the initial situation. The survey was designed based on literature findings about knowledge sharing barriers in software development and it
+was conducted at the beginning of February. This survey is presented in appendix \ref{appendix:survey}.
+
+In addition to the first interview and the survey, also another interview was organized. The second interview was with the CTO and its purpose was to
+identify the ways to measure the change and the most important aspects for improvement. A list of possible metrics were gathered from
+literature in addition to the initial ideas for focus points, which were then discussed with the CTO resulting in a prioritized list of a few metrics to focus on. These metrics are presented
+in more detail in section \ref{section:measuring}.
+
+Also a workshop was organized to further analyze the problems of the initial state and to get a broader viewpoint from the employees. The workshop was organized at the beginning of February
+with a total of six participants in addition to the researcher. Three different teams were represented in the workshop by four developers and two consultants, which covers most
+of the case company's organization (see section \ref{section:case-company}).
+The executives were also invited to the workshop, but were unable to attend due to unexpected changes in schedules. The topics of the workshop were covered later with the CTO and CCO
+to get an executive point of view to the discussed topics. The workshop notes were collected on sticky notes and later analyzed
+to form a basis for the solution proposals. Results of the first workshop are presented in section \ref{section:findings-before}.
+
+\subsection{Proposing solutions}
+
+The findings from the initial state analysis were then formulated into goals that the solution proposals would aim to meet. These goals were discussed and prioritized together
+with the executives to find out the most important goals to focus on, as all of the challenges can not be solved with limited resources. These goals and their priorities are
+presented in section \ref{section:goals} together with justification for the prioritization. After the initial analysis of the problems and prioritization of goals, a further literature
+review was conducted in order to find possible solutions from theoretical frameworks and previous case studies. The findings from the literature review were then applied to the context of
+the case company for better applicability and formulated into concise solution proposals. These proposals were then evaluated with the management to filter out those with low
+expected return of invested resources and those not suitable for the company's high level business strategy. The remaining proposals after strategic filtering with the executives
+are presented in section \ref{section:solutions}.
+
+These proposals were then presented to employees in the second workshop to gather wider feedback about their suitability and implementation. The workshop was organized at the end 
+of February with the same target audience as in the first workshop. The reason why proposals were evaluated and modified together was to ensure involvement and commitment
+to the change process, which is essential to succeed in SPI. Therefore rather than presenting finalized solutions, the workshop consisted of a brief introduction to the idea
+behind each proposal, which were then evaluated with the Think-Pair-Share method. After gathering feedback and some modifications to the initial proposals, the most promising ones
+were selected for the implementation phase. The selected solutions are presented in section \ref{section:solution-feedback}.
+
+\subsection{Implementation}
+
+A few days after selecting the solutions for the implementation phase in the second workshop, another meeting with the COO and CCO was arranged to address the practicalities of
+implementing the selected solutions. During the meeting, the solutions were discussed one by one to identify the practical actions required to implement them.
+To ensure that no time is wasted on misunderstandings and lack of communication, each task was also assigned to a responsible, who would ensure that it will get done
+on time. Most of the preparatory tasks were naturally assigned to the researcher, but some tasks required modifications to the time tracking service for example,
+and therefore could only be conducted by the executives with an administrative access to the service. Once all preparations were done, the guidelines were first evaluated together
+with the executives, before presenting them to all employees in a company wide Slack channel. After ensuring that the implemented solutions started working as intended,
+it was time to observe the implementations and discuss about them informally to get early feedback about them. This was important because the short time period of the
+research required fast reaction to possible issues in the solutions to ensure that no time is wasted. The implementation phase lasted for a total of seven weeks between
+March and April.
+
+\subsection{Evaluation and reflection}
+
+After seven weeks of implementation phase, the third workshop was organized at the end of April marking a conclusion to the implementation phase.
+The purpose of the third workshop was to gather feedback about the implemented solutions and their efficiency in solving the challenges identified at the beginning of this study.
+The workshop was open for the whole organization to ensure that everyone has a chance to share their thoughts on the topic. The workshop had six participants in addition to the researcher
+representing all teams of the case company and therefore it can be stated that the feedback gathered represents the whole organization and not just a single team. However some key
+persons, including the CTO for example, were unable to attend due to busy schedule, but their insights were addressed separately with an unstructured interview based on the workshop findings.
+
+In addition to the third workshop, also the knowledge sharing survey was repeated together with new data exports to measure the change in selected metrics. The analysis on these metrics
+supported the qualitative findings of the workshop and gave further insight on the effectiveness of the implemented solutions. As the time frame of this study was limited and the whole cycle of
+this study was considered as the first iteration of continuous improvement, it was important to accurately measure the resulting state of the organization. This measurement could then
+be used as a starting point for the next iteration of improvements, building on top of the findings and experiences from this study.

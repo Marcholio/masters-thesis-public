@@ -1,0 +1,257 @@
+\chapter{Solution proposals}
+\label{chapter:proposal}
+
+This chapter presents the proposed solutions to solve the challenges identified in the initial state analysis. Before presenting the actual solution proposals, goals for the solutions are identified and
+prioritized to better understand the intended outcomes of the implemented solutions. After this, each of the initially proposed solutions are presented after which the feedback and modifications
+to them are described. This finally leads to selecting the solutions for the implementation phase.
+
+\section{Goals for solutions}
+\label{section:goals}
+
+The findings of the initial state analysis were discussed with the COO together with an evaluation for goals of the implementation to identify their internal priority.
+These goals and prioritizations are next presented in detail, but also listed in table \ref{table:goals} for easier comparison.
+
+It was agreed that the most important challenge to be solved was knowledge sharing and the barriers preventing it. Knowledge sharing was considered a top priority goal for the improvement
+since it was the most significant threat for scalability of the maintenance process. Initially there was a significant gap on project knowledge
+at 3+ level between the executives and other employees (see table \ref{table:projects-per-level-before}). The gap was even larger at level 5 skills, but as the time period of the thesis is 
+quite short and acquiring skills required at level 5 might require years of practice, the focus is directed to 3+ level (G1), which already improves the situation. In addition to lowering
+the gap between the executives and others, another important aspect identified was the average amount of persons with 3+ skills for a typical project, which effectively represents the 
+variety of skill sets in the company. It would be much better to have a variety of projects employees can contribute to, rather than having them all focus on the same ones. Initially the amount
+was 3.2 (see figure \ref{fig:skill-distribution-before}) and it was agreed that 4.0 would be a good goal for improvement since
+it would most likely mean that there are two persons on average in addition to the CTO and COO who can contribute to the maintenance tasks (G2).
+
+For knowledge sharing barriers the focus was directed to the top three most significant ones: tight schedule, multitasking and lack of informal documentation. Multitasking and tight schedule
+are closely related to each other, because they are both result of having multiple projects active in parallel with customer pressure for fast deliveries. They can also be solved with
+similar techniques and thus are grouped together as G3. The goal is to lower the significance of tight scheduling and multitasking initially having significance scores of 15 and 10 respectively
+(see section \ref{section:survey-results-before}). The goal was not necessarily to change the order of the barriers as it could mean that the solutions have just shifted the problems to other
+barriers and that is why lowering the significance was agreed to be the goal for improvement on knowledge sharing barriers. Also lack of informal documentation was added to goals with high
+priority as it was relatively easy to tackle, but still had a relatively high significance score of 7 (G4).
+
+Secondary goals were more related to Freshdesk and the process itself. First of all, the amount of alerts was considered as a good measure for tickets that were handled before
+customer needed to report them thus making it an important point for improvement. However exactly defining the tickets that could have been recognized earlier is hard and the initial
+situation was not considered as worrying as the situation with knowledge sharing. Therefore it was agreed that increasing the ratio of alerts out of all tickets (excluding "info" tickets)
+should be increased from 7 \% to 10 \% during the implementation phase (G5) and further improved in the future if considered necessary. Additionally another measure of Freshdesk process
+improvement was the ratio of internally reported tickets that serves as an estimation of tickets from informal sources. The target for implementation phase was to halve the ratio of tickets
+from 10 \% to 5 \% by encouraging the usage of official channels (G6). It was also important that because of the process improvements, the average resolution times should not increase
+significantly and thus it was agreed that solidifying the average resolution time to below 30 hours would be a good goal (G7). This goal also meant that the cyclic increase in resolution
+times (see figure \ref{fig:resolution-time-before}) should be taken into account and tackled with process improvements.
+
+Additionally two optional goals were specified as nice side effects of primary and secondary goals, but not necessarily goals to put much effort on. First of all, decreasing the ratio of low
+priority tickets in Freshdesk (G8) was considered as a measure of process clarification, since initially 94 \% of the tickets were of low priority and the definitions between different priorities
+were not well defined. However measuring just the ratio of low priority tickets could be potentially problematic as it would encourage to create tickets of higher priority, which is not
+an improvement on the process. Additionally not increasing the total amount of tickets during the implementation phase was also considered a positive factor (G9), but it was also problematic
+due to growth of the company essentially leading to an increasing amount of tickets. Therefore it was not a definite goal for success, but still recognized as a thing to consider, especially
+if the amount of tickets was to rise because of the implemented solutions.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Goal}                                                                                                             		& \textbf{Code} & \textbf{Priority}    \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Significantly decrease the gap between\\ the executives and others at 3+ level\end{tabular}    		& G1            & Primary              \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Increase the average amount of employees\\ with 3+ skill on a project from 3.2 to 4.0\end{tabular} 	& G2            & Primary              \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Lower the significance of tight\\ schedule and multitasking barriers\end{tabular}               		& G3            & Primary              \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Lower the significance of lack\\ of informal documentation barrier\end{tabular}                  		& G4            & Primary              \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Increase the ratio of alerts\\ from 7 \% to 10 \% \end{tabular}                              			& G5            & Secondary            \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Decrease the ratio of internally reported\\ tickets from 10 \% to 5 \% \end{tabular}            		& G6            & Secondary            \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Solidify resolution time\\ below 30 hours on average \end{tabular}                             		& G7            & Secondary            \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Decrease the ratio of "low" priority\\ tickets from 94 \% to 90 \% \end{tabular}                 		& G8            & Optional             \\ \hline
+			\begin{tabular}[c]{@{}c@{}}Keep the total amount of tickets \\ constant at 40-50 monthly tickets \end{tabular}              		& G9            & Optional             \\ \hline
+		\end{tabular}
+		
+		\caption{Goals for the implementation}
+		\label{table:goals}
+	\end{center}
+\end{table}
+
+\section{Solutions}
+\label{section:solutions}
+
+Challenges identified during the initial state analysis are quite well studied in software engineering literature and there are several proposed solutions to them.
+This section presents the proposed implementation
+for each of them in QOCO's context. To gain further insight on the theory behind these proposals, see section \ref{section:solutions-theory}. The proposals presented here were evaluated together
+with the development and consulting teams in the second workshop, after which some modifications to initial proposals were made to better fit the specific context of the company. These solutions, received feedback
+and modifications to initial proposals are presented in the upcoming sections.
+
+\subsection{Pair programming}
+\label{section:pair-programming}
+
+As stated in section \ref{section:pair-programming-theory}, pair programming
+is a good solution to solve knowledge sharing challenges and it helps to prevent tasks from piling up on certain key persons. In QOCO's case, the best effect of pair programming
+is most likely achieved by having the CTO or COO act as the navigator guiding the other employee who would actually learn to solve the tasks. As the maintenance tasks are not plain programming tasks, but
+can consist of updating configurations, verifying certain things or inspecting application logs, the term \emph{pair programming} is a bit misleading and the actual term in QOCO's case is \emph{pair working},
+meaning working as a pair on a variety of maintenance tasks, not just the ones including programming. The tasks selected for pair working should be relatively small at least at the beginning,
+since strict pair working has not been tried before. A good rule of thumb would be that pair working tasks should not take more than one hour to complete at the beginning. After a while of working and gaining
+experience, this limit could be reconsidered. For the physical environment to work as a pair, either a group working room, that is regularly used for daily meetings, or a dedicated pair working room
+could be utilized. Anyway the pair working space should be different from the open cubicle to avoid disturbing other employees.
+
+\subsection{README template}
+\label{section:readme}
+
+Since lack of informal documentation is an issue for knowledge sharing and QOCO's projects rarely have README files, it was considered that a general template for a good
+README file could be created to encourage writing informal documentation alongside the codebase itself. As described in section \ref{section:readme-theory}, README file
+is generally an introduction to the codebase and acts as the first point of documentation for newcomers on the project.
+There are plenty of README examples available online that could be used as a template and after a short review of several candidates, it was decided that it would be better to
+just pick ideas from several templates while constructing an entirely tailored one from scratch. The template would be stored in QOCO's GitHub account to keep it easily accessible and to enable easy
+version control for updates to the base template. The template would then be added to at least newly created projects and older ones with active development to improve
+the overall quality of available README files.
+
+\subsection{Project presentations}
+
+Another idea to improve informal documentation and share knowledge about interesting projects was regular project presentations. As argued in section \ref{section:presentations-theory},
+giving presentations should be quite familiar for everyone, although not necessarily an enjoyment. Therefore for the best benefit, it should not be forced for anyone, but some encouraging
+is most likely still needed. Ideally there could be weekly presentations during a casual company-wide meeting occurring every
+Friday. The meeting lasts usually about an hour and therefore for example 10 minutes could be dedicated to a weekly presentation about different projects. 10 minutes does not take too much time
+from casual chatting, but it is still enough to provide a clear and concise update about the project's situation. The presentations could also act as a basis for casual discussion during the
+weekly meeting, if there are some interesting topics for further discussions. In addition to the presentation itself, the materials are stored in a shared folder, which also addresses
+the problem of lacking informal documentation. Even though it was pointed out that these materials could become outdated quite fast, they still act as a general description of the business case
+and at least provide a contact person to ask for more information. The presentation responsibility could either be rotating between the teams in certain
+order, or could be reserved beforehand if there are some updates with on-going projects. The proposal is to share the responsibility on an on-demand basis, meaning that each team presents
+their projects if they consider it meaningful, instead of enforcing a strictly rotating responsibility on a weekly basis. However, it should still be ensured that the workload of preparing
+presentations is somewhat evenly distributed between different teams to ensure that each team participates equally to the knowledge sharing process.
+
+\subsection{Rotating triage responsibility}
+
+Another challenge that is at least partially caused by problems in knowledge sharing is maintenance tasks that keep on piling up on key persons, namely the CTO and COO in most cases.
+It was also said during the first workshop that initial incident reports from customers are usually of low quality and additional details are required before the work can actually be started
+on the incident. Low quality tickets also result in challenges with prioritization and do not generally make knowledge sharing easier in any way. A common solution to these issues
+generally encountered in help desk contexts is using triage principles before passing the ticket forward to a person actually responsible for solving it (see section \ref{section:triage-theory}).
+
+The solution in QOCO's context is to implement a rotating triage responsibility by changing the person responsible for triaging incoming tickets on a daily basis. During the day the
+responsible's main task is to ensure that the newly created tickets are of good quality, correctly prioritized and assigned for a developer after all necessary details
+are included in the ticket. This would also support knowledge sharing as one person is responsible for handling all of the tickets created for any project during the day, which
+most likely requires some training and knowledge sharing at first, but will eventually result in a wider knowledge base and a more balanced workload on maintenance tasks. Before this
+can be implemented, the amount of Freshdesk users need to be increased from the initial five licenses. For example adding
+new licenses for Airline 1 development and MROTools teams is essential for the implementation of rotation. Another practical issue
+to consider is the amount of part-time employees as the idea is not to have them working in triage every other working day. This needs to be addressed by agreeing a certain
+rule of the ratio between triage and other working days. This would make the balance between triaging and working equally distributed for both full-time and part-time employees
+and act as a transparent way to assign responsibilities. Some way to assign the triage
+responsibility is also required, especially since there are quite many part-time employees, which could lead to communication and coordination issues. One way to do it would be
+to add a physical triage scheduling board to the office, but the same thing could also be achieved by using Doodle \footnote{https://doodle.com} or some other scheduling application for
+the purpose.
+
+\subsection{Improving monitoring with alerts}
+\label{section:alerts}
+
+Another solution to tackle low quality tickets would be to detect incidents before customers need to report them. This would most likely mean improving monitoring of applications
+by adding automatic alerts for certain events, such as system reboots or failures to connect to a database. This aspect was also emphasized by QOCO as it would most likely result in
+faster resolution times and better customer satisfaction as described in section \ref{section:alerts-theory}. Despite the benefits, it was also noted that previous
+experience at QOCO shows that certain events such as failure with a database connection could trigger multiple consecutive alerts when the system tries to reset the connection
+periodically. This can be problematic as it floods the support process, but it can be tackled by better alert configuration and triaging.
+
+The solution proposal in QOCO's context is to improve alert practices by reading about the best practices and applying them to alert configuration in one or more test projects that
+are newly shifted to maintenance mode or are under development. After a while, adjustments could be made and lessons learned could be discussed with other employees to share knowledge
+about alert configurations. These practices could then be documented and spread to new projects and added as a requirement for newly developed projects, which would improve the overall
+maintenance process little by little. Further evaluations based on new projects would also be beneficial to iteratively improve alert configuration knowledge in the future.
+
+\subsection{Transition model}
+
+As identified already in the initial interviews, there was no structured process for the transition between active development and maintenance phases. Although this was not necessarily
+required, since there was no separate maintenance team, it was still considered a point of improvement as having a well defined transition model could reduce knowledge loss
+and prepare the projects properly for the maintenance phase (see section \ref{section:transition-theory}).
+
+The solution proposal in QOCO's case is to create well defined guidelines for transition from active development to maintenance mode. These guidelines could include for example
+the README template proposed in section \ref{section:readme}, but in addition the practicalities about the maintenance process, informing it to the customers and configuring alerts if necessary
+as described in section \ref{section:alerts}. It could also take into account practices for introducing new personnel to the maintenance of different projects.
+The outcome of this solution would be general best practices for easy transition to avoid knowledge loss and to enable easier maintenance
+of the project after the main development has been completed. 
+
+\subsection{Kanban WIP limits}
+
+In addition to other knowledge sharing barriers, multitasking was identified as problematic and it seemed to be focused on Airline 1 development team that is constantly working on several
+parallel projects. Airline 1 development team has decided to use Kanban as its task coordination method since previous attempts to implement Scrum iterations were not considered feasible
+due to changing requirements, priorities and the amount of available resources.
+
+The basic flow of Kanban in Airline 1 development team is moving backlog tickets to "groomed" column when they are ready
+to be worked on. From "groomed" they will be moved to "in progress" column when the task is under development, "waiting" when it is ready for review and "concluded" when it is deployed to
+some test environment. The way to limit the amount of concurrent tasks in Kanban is generally known as "WIP limits" and it means that there is a hard limit for the amount of tasks that can be
+under development at the same time (see section \ref{section:wip-theory}). 
+The solution for Airline 1 development team is to define and enforce these hard limits for tasks under development.
+The actual limits are left for the team to decide as to be actually useful they need to be collaboratively agreed by all team members.
+
+\section{Feedback and modifications}
+\label{section:solution-feedback}
+
+The solution proposals were evaluated in the second workshop, which was organized at the end of February. Structure and methodology of the workshop was similar to the first
+workshop as Think-Pair-Share methodology worked well and resulted in a lively and versatile discussion. The discussion in the workshop focused on evaluating each solution's
+suitability for QOCO's context and expected efficiency in terms of invested resources and expected results. The researcher also remained strictly in the facilitator's role
+as presenting opinions before gathering extensive feedback would introduce bias to the workshop setting and ruin its purpose.
+
+\subsection{Knowledge sharing related solutions}
+
+There were initially three knowledge sharing related solutions, \emph{pair working}, \emph{README template} and \emph{project presentations}.
+Pair working or pair programming was generally a well known method and there was a mutual agreement about its benefits. However the main concern about it was related to
+tight schedule and an increase in total effort that could not directly be billed from the customers. It was considered that ``\emph{it could work, IF there would be enough time allocated
+for it}``, as stated on one of the sticky notes. There was also a need for documenting actions taken during the pair working sessions somewhere to be used as a future reference.
+However, there was no clear and concise agreement about what exactly this place should be, but for example README, Freshdesk and Google Drive were proposed
+as possible candidates.
+
+Another solution to tackle knowledge sharing issues and improve quality of informal documentation was a README template. It was generally considered to be a good solution, since
+its implementation requires relatively low effort and its existence could potentially greatly improve the quality of README files as they did not even exist in some projects.
+It was considered that writing README files is easily forgotten or considered too troublesome since there are no general guidelines about things to include in them or
+emphasis on their importance. It was considered helpful to have some template for README files, but also concerns about its contents were raised as having too much or too
+specific content would render the template practically useless.
+
+Also project presentations were proposed as an alternative solution to informal documentation issues. Presentations raised some discussions concerning their actual benefit,
+since presenting the business case would not benefit the organization much. It was also noted that they would easily be forgotten or considered as a mandatory burden if
+not organized properly and therefore it was agreed that it would be better to organize them when considered useful rather than enforcing a strict policy of having
+one presentation every week. Also storing the presentation materials raised some concerns since they would easily be outdated and forgotten in Google Drive,
+rendering them most likely useless. However, the effort to organize short presentations every now and then was considered to require low effort with some potential benefits
+and therefore they could be useful.
+
+As a sidenote, it was also pointed out that Google Drive had become messy and hard to use due to complex and inconsistent folder structure and filenames. It was proposed
+that it would require some cleanup if it was to be used more. However, there was no further suggestions about the concrete actions required and its benefits were debatable
+as Google Drive was not considered as a major tool that is used on a daily basis.
+
+\subsection{Process related solutions}
+
+Initially four process related solutions were presented: \emph{triage responsibility}, \emph{transition model}, \emph{alerts} and \emph{Kanban WIP limits}.
+The most interesting and discussed solution out of these was the rotating triage responsibility.
+It was generally considered good, but there was also concerns about the actual ability
+of implementing it as it would require training and an overall understanding of the projects. As it was seen that triage and pair working had relatively similar concerns about
+time management and skills required, it was proposed that they could be combined together. Basically this would mean that the person responsible for triage on each day
+would also be the one participating in pair working during that day, if suitable maintenance tasks are available. Of course this would not be strictly enforced as triaging
+could also be done remotely or some maintenance tasks would be more beneficial to complete with someone else, but generally the person with triage responsibility should be
+the first one to consider when selecting a pair for pair working.
+
+Alerts as a solution to low quality incident reports and improving customer service by earlier incident detection also raised a lot of discussion as it has been already
+discussed within the company for at least a year. Most of the discussions were technical considering the possible solutions that have been proposed earlier, but also
+practical concerns about AMS contracts were discussed. It has been identified that some dashboard to monitor all of QOCO's internal services would be beneficial and is most
+likely going to be implemented sooner or later, but it was not considered as a top priority at the moment. Concerns about practical issues related to alert configuration
+was also presented as prior experiences show that it is usually balancing between having to deal with false alarms and missing the important ones.
+
+The transition model also received some feedback, mostly considering its relationship with other solutions, such as the README template and alerts. It was considered a good idea that QOCO
+should consider at some point in the future, but it was not considered as a top priority solution since transitions from development to maintenance mode are not that frequent
+after all. Additionally it was pointed out that as there is no separate maintenance team, the handover between development and maintenance phase is not well defined and
+could be considered more of a checklist that the project is ready for the maintenance phase, rather than an official handover. This could be implemented as a checklist of
+important aspects such as documentation and necessary alerts, but anything more official than that was considered unnecessary.
+
+The last solution for process improvements was WIP limits suggested specifically for Airline 1 development team to tackle the issue of multitasking. It did not receive much
+feedback, but there were comments reflecting previous experiences on enforcing strict WIP limits. Based on these experiences, it was considered that WIP limits do not
+actually solve the initial problem, they just hide it by moving tickets back and forth on the Kanban board, which would mean more unnecessary work and most likely decreased
+willingness to keep the board up to date. As an alternative solution to multitasking issues of Airline 1 development team, an emphasis on ticket quality rather than strict
+WIP limits was suggested as many of the parallel streams of work will become blocked at some point due to missing requirements or customer feedback. Therefore focusing
+on ticket quality would be a better solution for multitasking since it would most likely result in fewer blocked tickets, eventually leading to fewer active parallel
+streams.
+
+\subsection{Selected solutions for implementation}
+
+At the beginning of the workshop it was agreed that depending on the solutions selected, roughly two to four solutions could be selected for the implementation phase.
+After carefully evaluating each solution, the workshop was concluded by selecting
+\emph{pair working combined with rotating triage responsibility, README template} and \emph{project presentations} as solutions to be tested during the implementation phase.
+Pair working and triage responsibility were considered as generally
+good solutions despite the concerns about increased total effort. They were considered worth giving a try as they would focus on identified primary goals and therefore
+possibly solve some of the most significant challenges. Pair working and triage responsibility could be considered as the main solution, but it was additionally supported
+with the README template and project presentations. The README template was selected for the implementation due to its low effort requirement combined with relatively high expected benefits.
+It would also directly address the primary goal G4 by improving the quality of informal documentation. The project presentations would also address the same goal, but they would
+also serve as a background knowledge required to effectively triage maintenance issues. Storing the presentation materials in Google Drive could possibly improve
+the amount of informal documentation, but it was considered more of a nice addition rather than an actual realistic benefit. Project presentations were also considered to require
+relatively low effort, but the expected benefits were not that significant either.
+
+Rest of the solution proposals were not selected for the implementation phase, although some of them were considered as nice ideas to keep in mind. First of all, configuring
+alerts was not considered a suitable solution since it would require significant investment of resources before yielding any results. Also the requirements and relationship
+with AMS contracts was not well defined and therefore it was considered to be unsuitable to conduct in the scope of this study. However, it will most likely be implemented
+in some form in the near future. Also the transition model was considered unnecessary as it was likely that there would not be any transitions during the period of this study
+and therefore the expected return of invested resources was considered quite low. Despite this, it was considered an idea that QOCO needs to focus on in the future as there
+was no structured transition model defined for projects entering the maintenance mode. Also enforcing WIP limits did not receive any positive feedback based on previous experiences
+and it was not expected to solve the actual problems and therefore it was rejected without further discussion or any plans to implement it in the future.

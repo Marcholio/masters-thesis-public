@@ -1,0 +1,62 @@
+\chapter{Introduction}
+\label{chapter:intro}
+
+This chapter is an introduction to the topic of this thesis on a general level. It starts by introducing the problem of this thesis and the motivation to solve it. The problem statement also
+defines the scope and expected outcomes of this thesis together with the research questions guiding the entire process. After this, the overall structure of this thesis is also presented.
+
+\section{Problem statement}
+
+Software maintenance is usually the longest part of software lifecycle since the developed system might be used for years, or even decades, before it is replaced with a new one. Therefore maintenance
+tasks are usually the most common tasks faced by software engineers on their work \citep{Sommerville2011}. This might not be initially the case with small startups that are heavily focusing on development,
+but when they manage to deliver systems to their customers, it is inevitable that they will require some maintenance after the initial delivery. When the development continues and more deliveries are
+made, the amount of maintenance tasks also increases. Usually the very first model to handle these maintenance tasks is not having a structured model at all. The tasks are solved on an ad hoc basis with
+the best effort available. The ad hoc processes work well in a small context with occasional maintenance tasks, but when the startup grows and an increasing amount of projects are shifted to maintenance phase, the ad hoc
+model is no longer scalable and there is a need for a structured maintenance process to handle the incoming requests while maintaining the ability to deliver new features as well.
+
+This has been the background of software maintenance in the case company of this study as well. The ad hoc process has recently been replaced with a more structured one, including a proper incident tracking system
+and a defined flow for handling incoming requests. However, it has been noted that the maintenance process does not work exactly as intended as it fails to solve the scalability issue of the previous ad hoc model.
+The goal of this thesis is to identify the main challenges of the maintenance process, compare different solutions to solve them and implement the most promising ones. The expected outcome of this study
+is to gain insight about suitability and effectiveness of different solutions on solving the problem. As the scope and time period of a master's thesis is limited, this study does not aim to solve all
+of the identified problems, but it focuses on the most critical ones. Also the maintenance process after this study is not intended to be perfectly optimized as this study merely acts as the first iteration of continuous
+evaluation and improvement and provides the tools to develop it further. As the focus is on process improvement, the technical details such as maintainability and testability are left out of the scope of this
+study.
+
+\subsection*{Research questions}
+
+The research problem of this study is divided into three research questions reflecting different research phases:
+
+\vspace{12pt}
+
+\emph{RQ1: What are the main problems in the maintenance process?}
+
+\vspace{12pt}
+
+\emph{RQ2: What are the most suitable solutions to the identified problems?}
+
+\vspace{12pt}
+
+\emph{RQ3: How well do the selected solutions solve the identified problems?}
+
+\vspace{12pt}
+
+The first research question aims to define the actual problems in the maintenance process. The starting point of this thesis is a vague feeling that maintenance is not working as intended without
+any further details about the actual problems in the process. Therefore the first thing to be addressed by this study is to actually model the process in detail and gain further insight about
+the problems of it. The first question needs to be addressed with extensive current state analysis utilizing several data sources to be able to correctly identify the root causes of experienced
+issues in the process. As the scope of this thesis is limited, it is also important to prioritize different challenges identified to be able to select the most critical ones to focus on.
+
+After identifying and prioritizing the issues, the second question focuses on finding possible solutions from scientific literature. These suggestions form a basis for the solution proposals, but they might require
+modifications to be better applicable for the case company's context. Various solution proposals are evaluated in order to find the most suitable ones, which then will be implemented during the
+implementation phase in order to address the problems.
+
+The last question then evaluates the efficiency of the solutions implemented. The efficiency of the solutions is defined as the change in selected metrics representing the state of the maintenance process.
+The initial state is already measured while finding an answer to RQ1 and the final state after this study is measured using the same methods in order to ensure accuracy of the measurement.
+
+\section{Structure of the thesis}
+
+This thesis is divided into ten chapters. After this introductory chapter, relevant research on software maintenance, knowledge sharing and software process improvement is presented in chapter \ref{chapter:literature}. After this the research design and methodology of this study is described in chapter \ref{chapter:methods}.
+The case company as the context of this study is then introduced in chapter \ref{chapter:context}, followed by analysis of the initial state in chapter \ref{chapter:current-state}.
+After identifying the points of improvement in the initial state, they are prioritized and proposed solutions to them are explained in chapter \ref{chapter:proposal}. The practical implementation details
+of the selected solutions are then presented in chapter \ref{chapter:implementation} and after the implementation phase, the efficiency of
+the solutions is evaluated in chapter \ref{chapter:evaluation}.
+The outcomes of this thesis are then discussed together with analysis on validity and future research opportunities in chapter \ref{chapter:discussion}. Finally chapter \ref{chapter:conclusions}
+summarizes the whole research process including background, used methodology and outcomes.
